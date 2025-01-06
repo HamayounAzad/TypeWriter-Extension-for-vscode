@@ -61,15 +61,28 @@ Example keybindings.json entries:
 
 ## Release Notes
 
-### 1.0.2
-* Added typing profiles
-* Improved typing simulation
-* Let users set their own keyboard shortcuts
+## [1.0.0] - 2025-01-06
 
-### 1.0.1
-* Added pause and resume command
-* Fixed command prefix issues
+### Added
+- First release of Typewriter extension
+- Realistic human-like typing simulation
+- Multiple typing profiles with different speeds:
+  - Perfect: Clean typing with no mistakes
+  - Slow: Relaxed typing pace
+  - Fast: Quick and efficient typing
+  - Natural: Balanced typing speed
+- Essential typing commands:
+  - Set text from selection
+  - Start/stop typing playback
+  - Pause and resume typing
+  - Switch between typing profiles
+- Configurable typing speeds through settings
+- User-customizable keyboard shortcuts
 
-### 1.0.0
-* Initial release
-* Basic typing functionality
+### Changed
+- Improved typing simulation for more realistic behavior
+- Optimized typing mechanism for better performance
+
+### Fixed
+- Command prefix issues in VS Code command palette
+- Typing behavior inconsistencies
